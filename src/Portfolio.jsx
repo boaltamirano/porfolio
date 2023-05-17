@@ -5,6 +5,7 @@ import { NavBar } from "./myportfolio"
 export const Portfolio = () => {
     return (
         <BrowserRouter>
+            <NavBar />
             <AppRouter />
         </BrowserRouter>
     )
