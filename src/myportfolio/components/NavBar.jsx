@@ -25,7 +25,7 @@ export const NavBar = () => {
                     className={({ isActive }) => `nav-item nav-link navlink-p ${isActive ? 'active' : ''}`}
                     to="/technology"
                 >
-                    Technology
+                    Skills
                 </NavLink>
 
                 <NavLink

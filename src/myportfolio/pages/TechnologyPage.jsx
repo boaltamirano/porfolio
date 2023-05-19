@@ -1,9 +1,31 @@
+import "../styles/technology.css"
+import { languages } from '../data/skills';
+import { ItemSkills } from "../components";
 
 export const TechnologyPage = () => {
+
+
     return (
-        <div>
+        <div className="technology">
+            <h1>MY SKILLS</h1>
+            <h2>Lenguajes de programacion</h2>
+            <div className="language">
+                {
+                    languages.map((value) => (
+                        <div key={value.id} >
+                            <ItemSkills {...value} />
+                        </div>
+                    ))
+
+                }
+            </div>
+
+
             <h2>Frontend</h2>
-            CSS3
+
+
+
+
             HTML5
             Bootstrap
             React Native
@@ -19,7 +41,7 @@ export const TechnologyPage = () => {
             React
             Socket.io
             React Router
-Redux
+            Redux
 
             <h2>Database</h2>
             MongoDB
@@ -27,21 +49,8 @@ Redux
             Postgres
             MySQL
 
-
-            <h2>Lenguajes de programacion</h2>
-            JavaScript
-            PHP
-            Python
-            TypeScript
-            C
-            C++
-            Go
-            Java
-
-
             <h2>Herramientas</h2>
             Expo
-            Express.js
             Insomnia
             Docker
             ElasticSearch
@@ -57,6 +66,8 @@ Redux
             Google Cloud
             Shell Script
             Jenkins
+
+
             <h2>Administrador de paquetes</h2>
             NPM
             YARN
@@ -68,8 +79,7 @@ Redux
             <h2>Estandares/Plataformas</h2>
             MUI
             JWT
-            NumPy
-            
+
         </div>
     )
 }
