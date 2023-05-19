@@ -1,21 +1,5 @@
-import { useEffect, useState } from "react";
 
 export const ItemExperience = ({experience, porcental, handleViewOut}) => {
-
-    // const [counter, setCounter] = useState(0);
-    // const numVal = experience;
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         if (counter !== numVal) {
-    //             setCounter((prevCounter) => prevCounter + 1);
-    //         }
-    //     }, 80);
-
-    //     return () => {
-    //         clearInterval(interval);
-    //     };
-    // }, [counter, numVal]);
 
     return (
         <div className="progress-bar" onMouseLeave={handleViewOut}>
@@ -41,7 +25,7 @@ export const ItemExperience = ({experience, porcental, handleViewOut}) => {
                     cx="50"
                     cy="50"
                     r="46"
-                    stroke="#151615"
+                    stroke="rgba(102, 112, 55, 0.438)"
                     strokeWidth="7"
                     fill="none"
                 />

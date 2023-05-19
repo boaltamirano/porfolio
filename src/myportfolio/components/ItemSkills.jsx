@@ -28,7 +28,7 @@ export const ItemSkills = ({ img, name, experience, porcental }) => {
                 : <ItemExperience key={name} experience={experience} porcental={porcental} handleViewOut={handleViewOut} />
 
             }
-            <p>{name}</p>
+            <p className="name-skill">{name}</p>
         </div>
     )
 }
