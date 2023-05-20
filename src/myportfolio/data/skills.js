@@ -186,6 +186,13 @@ export const allTools = [
                 'img': reduximg,
                 'experience': 90,
                 'porcental': 261
+            },
+            {
+                'id': "mui",
+                'name': "MUI",
+                'img': muiimg,
+                'experience': 90,
+                'porcental': 261
             }
         ]
     },
@@ -287,6 +294,13 @@ export const allTools = [
                 'img': kubeimg,
                 'experience': 50,
                 'porcental': 145
+            },
+            {
+                'id': "jwt",
+                'name': "JWT",
+                'img': jwtimg,
+                'experience': 80,
+                'porcental': 232
             }
         ]
     },
@@ -372,44 +386,6 @@ export const allTools = [
                 'img': windowsimg,
                 'experience': 100,
                 'porcental': 290
-            }
-        ]
-    },
-    {
-        name: "Operating systems",
-        tools: [
-            {
-                'id': "linux",
-                'name': "Linux",
-                'img': linuximg,
-                'experience': 80,
-                'porcental': 232
-            },
-            {
-                'id': "windows",
-                'name': "Windows",
-                'img': windowsimg,
-                'experience': 100,
-                'porcental': 290
-            }
-        ]
-    },
-    {
-        name: "Library & Standard",
-        tools: [
-            {
-                'id': "mui",
-                'name': "MUI",
-                'img': muiimg,
-                'experience': 90,
-                'porcental': 261
-            },
-            {
-                'id': "jwt",
-                'name': "JWT",
-                'img': jwtimg,
-                'experience': 80,
-                'porcental': 232
             }
         ]
     }
