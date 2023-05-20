@@ -1,70 +1,18 @@
 import "../styles/experience.css";
 import adsimg from '../../assets/ads.png';
+import iasimg from '../../assets/ias.jpeg';
+import tremgroupimg from '../../assets/tremgroup.jpeg';
 
 export const ExperiencePage = () => {
     return (
         <div className="technology">
-            <h2>Desarrollador de software</h2>
-            <span>noviembre 2021 – marzo 2022</span>
-
-            • Sistema web Wallet
-            • Desarrollo BackEnd Sprint Boot y Python,
-            - Desarrollo FrontEnd Reactjs,
-            - Manejo base de datos en MySQL,
-            - diseño web Bootstrap 4,
-            - Verificación de identidad Twilio, Google GMAIL,
-            - versionamiento de código GitHub,
-
-            Arquitectura de desarrollo Microservicios,
-            Gestión de tareas Jira,
-            Deploy aplicación GCP, VPS, Docker,
-            Metodología de trabajo Scrum.
-
-
-            • Sistema web entrega de paqueteria
-            • Maquetado de Base de datos draw.io,
-            - Control Tareas Jira,
-            Creación ambiente de desarrollo Docker para todo el equipo,
-            Control Versionamiento GitHub,
-            Metodología de trabajo Scrum,
-            Desarrollo BackEnd Laravel,
-            - Desarrollo FrontEnd Reactjs,
-            - Manejo base de datos en MySQL
-
-            <h2>Desarrollador FullStack</h2>
-            <span>Marzo 2022 – Marzo 2023</span>
-
-            • Desarrollo API para comunicacion con servicios externos
-
-            • Desarrollo API con Symfony 5, Ambiente desarrollo Docker, Metodología de trabajo Scrum,
-            Versionamiento de código GitHub, Testing de API Postman.
-
-            • Desarrollo API y automatización con Zapier
-            • Symfony 5, autenticación con JWT, Ambiente desarrollo Docker, Metodología de
-            trabajo Scrum, Versionamiento de código GitHub, Testing de API Postman y Zapier, creación de zap,
-            Autenticación de API.
-
-            • Desarrollo Plugin para Wordpress
-            • Desarrollo con PHP.
-
-
-            • Sistema Chat Saas
-            • Desarrollo BackEnd Symfony 5,
-            Desarrollo servidor Socket.io y Node.js,
-            Desarrollo FrontEnd React.js,
-            Persistencia de Datos MongoDB y Redis,
-            Ambiente desarrollo Docker,
-            Arquitecturas de desarrollo MVC y cliente-servidor
-            Metodología de trabajo Scrum,
-            Versionamiento de código GitHub.
-            Creacion de sistema embebido
             <div className="cardExp">
                 <div className="headerExp">
                     <div>
-                        <h3 className="titleExp">Desarrollador FullStack</h3>
+                        <h3 className="titleExp">FullStack Developer</h3>
                         <a className="nameExp" href="https://fenixcorp.fenixerp.com">ADSSOFTWARE CIA. LTDA</a>
                     </div>
-                    <img className="imageExp" src={adsimg}/>
+                    <img className="imageExp" src={adsimg} />
                 </div>
                 <div className="descriptionExp">
                     <p>Maintaining web applications using Angular, Laravel and postsgreSQL.</p>
@@ -83,34 +31,66 @@ export const ExperiencePage = () => {
                 </dl>
             </div>
 
-            <br/>
-            <br/>
+            <br />
+            <br />
 
             <div className="cardExp">
                 <div className="headerExp">
                     <div>
-                        <h3 className="titleExp">Desarrollador FullStack</h3>
-                        <a className="nameExp" href="https://fenixcorp.fenixerp.com">ADSSOFTWARE CIA. LTDA</a>
+                        <h3 className="titleExp">FullStack Developer</h3>
+                        <a className="nameExp" href="https://www.iaservitech.com">IAservitech</a>
                     </div>
-                    <img className="imageExp" src={adsimg}/>
+                    <img className="imageExp" src={iasimg} />
                 </div>
                 <div className="descriptionExp">
-                    <p>Maintaining web applications using Angular, Laravel and postsgreSQL.</p>
-                    <p>Developing new features for web applications, including update functionality, notifications to users of email notifications.</p>
-                    <p>Research of technologies to replace the used ones, weblate configuration using tools such as docker, nginx, uwsgi.</p>
+                    <p>Database management, creation of database schemas for the systems worked on</p>
+                    <p>Develop and maintain web applications using React.js, Spring boot, Laravel, MySQL and PostgreSQL</p>
+                    <p>Collaborate with the design team, communicate with the client to work with a clearer idea of their vision for the product</p>
+                    <p>Creating and implementing docker development environments for the backend team</p>
+                    <p>Creation and implementation of services in charge of user identity verification through text messages and email</p>
+                    <p>Collaborate with DevOps team to build development environments and production environments</p>
                 </div>
                 <dl className="post-infoExp">
                     <div className="crExp">
                         <dt className="dtExp">Start date</dt>
-                        <dd className="ddExp">September 2021</dd>
+                        <dd className="ddExp">November 2021</dd>
                     </div>
                     <div className="crExp">
                         <dt className="dtExp">End date</dt>
-                        <dd className="ddExp">December 2021</dd>
+                        <dd className="ddExp">March 2022</dd>
                     </div>
                 </dl>
             </div>
 
+            <br />
+            <br />
+
+            <div className="cardExp">
+                <div className="headerExp">
+                    <div>
+                        <h3 className="titleExp">FullStack Developer</h3>
+                        <a className="nameExp" href="https://www.tremgroup.com">TREMGROUP</a>
+                    </div>
+                    <img className="imageExp" src={tremgroupimg} />
+                </div>
+                <div className="descriptionExp">
+                    <p>Develop web applications using React.js, symfony 5, node.js, mongodb, socket.io and related technologies</p>
+                    <p>Collaborate with the team to implement responsive design and ensure cross-browser compatibility</p>
+                    <p>Participate in code reviews and make necessary changes to code from other developers working with the team</p>
+                    <p>Develop APIs for consumption of multiple third-party services, implementing security with JWT</p>
+                    <p>Collaborative Software as a Service development, embedded systems development. </p>
+                </div>
+                <dl className="post-infoExp">
+                    <div className="crExp">
+                        <dt className="dtExp">Start date</dt>
+                        <dd className="ddExp">April 2022</dd>
+                    </div>
+                    <div className="crExp">
+                        <dt className="dtExp">End date</dt>
+                        <dd className="ddExp">May 2023</dd>
+                    </div>
+                </dl>
+            </div>
         </div>
     )
 }
