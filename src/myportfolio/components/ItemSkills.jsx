@@ -7,12 +7,10 @@ export const ItemSkills = ({ img, name, experience, porcental }) => {
 
     const handleViewIn = () => {
         setSkillView(false);
-        console.log("adasdsad:: ", skillView)
     };
 
     const handleViewOut = () => {
         setSkillView(true);
-        console.log("Sale:: ", skillView)
     };
 
 

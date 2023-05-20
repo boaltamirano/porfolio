@@ -1,5 +1,5 @@
 
-export const ItemExperience = ({experience, porcental, handleViewOut}) => {
+export const ItemExperience = ({ experience, porcental, handleViewOut }) => {
 
     return (
         <div className="progress-bar" onMouseLeave={handleViewOut}>
@@ -25,10 +25,22 @@ export const ItemExperience = ({experience, porcental, handleViewOut}) => {
                     cx="50"
                     cy="50"
                     r="46"
-                    stroke="rgba(102, 112, 55, 0.438)"
-                    strokeWidth="7"
+                    style={{
+                        stroke: `url(#gradient)`,
+                        strokeWidth: "7px",
+                        fill: "transparent",
+                    }}
                     fill="none"
                 />
+                <defs>
+                    <linearGradient id="gradient" gradientTransform="rotate(-15)">
+                        <stop offset="0%" stopColor="rgb(31, 33, 124)" />
+                        <stop offset="50%" stopColor="rgb(31, 33, 124)" />
+                        <stop offset="90%" stopColor="rgb(202, 76, 214)" />
+                        <stop offset="95%" stopColor="rgb(221, 36, 83)" />
+                        <stop offset="100%" stopColor="rgb(221, 36, 83)" />
+                    </linearGradient>
+                </defs>
             </svg>
         </div>
     )
