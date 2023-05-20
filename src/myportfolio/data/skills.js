@@ -33,6 +33,8 @@ import elasticimg from '../../assets/elastic.jpg';
 import jiralimg from '../../assets/jira.png';
 import poatmanimg from '../../assets/postman.png';
 import kubeimg from '../../assets/kubernetes.png';
+import gitimg from '../../assets/git.png';
+import githubimg from '../../assets/github.png';
 
 
 import awsimg from '../../assets/aws.png';
@@ -54,306 +56,361 @@ import linuximg from '../../assets/linux.png';
 import muiimg from '../../assets/mui.png';
 import jwtimg from '../../assets/jwt.png';
 
-export const languages = [
+export const allTools = [
     {
-        'id': "javascript",
-        'name': "JavaScript",
-        'img': jsimg,
-        'experience': 80,
-        'porcental': 232
+        name: "Programming languages",
+        tools: [
+            {
+                'id': "javascript",
+                'name': "JavaScript",
+                'img': jsimg,
+                'experience': 80,
+                'porcental': 232
+            },
+            {
+                'id': "typescript",
+                'name': "TypeScript",
+                'img': tsimg,
+                'experience': 60,
+                'porcental': 174
+            },
+            {
+                'id': "php",
+                'name': "PHP",
+                'img': phpimg,
+                'experience': 95,
+                'porcental': 276
+            },
+            {
+                'id': "python",
+                'name': "Python",
+                'img': pythonimg,
+                'experience': 50,
+                'porcental': 145
+            },
+            {
+                'id': "java",
+                'name': "Java",
+                'img': javaimg,
+                'experience': 60,
+                'porcental': 174
+            },
+            {
+                'id': "go",
+                'name': "Go",
+                'img': goimg,
+                'experience': 30,
+                'porcental': 87
+            }
+        ]
     },
     {
-        'id': "typescript",
-        'name': "TypeScript",
-        'img': tsimg,
-        'experience': 60,
-        'porcental': 174
+        name: "Frontend",
+        tools: [
+            {
+                'id': "html",
+                'name': "HTML",
+                'img': htmlimg,
+                'experience': 90,
+                'porcental': 261
+            },
+            {
+                'id': "bootstrap",
+                'name': "Bootstrap ",
+                'img': bootimg,
+                'experience': 70,
+                'porcental': 203
+            },
+            {
+                'id': "react-native",
+                'name': "React native",
+                'img': reactNimg,
+                'experience': 40,
+                'porcental': 116
+            }
+        ]
     },
     {
-        'id': "php",
-        'name': "PHP",
-        'img': phpimg,
-        'experience': 95,
-        'porcental': 276
+        name: "Backend",
+        tools: [
+            {
+                'id': "symfony",
+                'name': "Symfony",
+                'img': symfonyimg,
+                'experience': 90,
+                'porcental': 261
+            },
+            {
+                'id': "laravel",
+                'name': "Laravel",
+                'img': laravelimg,
+                'experience': 80,
+                'porcental': 232
+            },
+            {
+                'id': "node",
+                'name': "NodeJS",
+                'img': nodeimg,
+                'experience': 80,
+                'porcental': 232
+            }
+        ]
     },
     {
-        'id': "python",
-        'name': "Python",
-        'img': pythonimg,
-        'experience': 50,
-        'porcental': 145
+        name: "Libraries",
+        tools: [
+            {
+                'id': "react",
+                'name': "React",
+                'img': reactimg,
+                'experience': 90,
+                'porcental': 261
+            },
+            {
+                'id': "socket",
+                'name': "Socket.io",
+                'img': socketimg,
+                'experience': 90,
+                'porcental': 261
+            },
+            {
+                'id': "react-router",
+                'name': "React router",
+                'img': reactRimg,
+                'experience': 80,
+                'porcental': 232
+            },
+            {
+                'id': "redux",
+                'name': "Redux",
+                'img': reduximg,
+                'experience': 90,
+                'porcental': 261
+            }
+        ]
     },
     {
-        'id': "java",
-        'name': "Java",
-        'img': javaimg,
-        'experience': 60,
-        'porcental': 174
+        name: "Databases",
+        tools: [
+            {
+                'id': "mongodb",
+                'name': "MongoDB",
+                'img': mongoimg,
+                'experience': 95,
+                'porcental': 276
+            },
+            {
+                'id': "redis",
+                'name': "Redis",
+                'img': redistimg,
+                'experience': 60,
+                'porcental': 174
+            },
+            {
+                'id': "elasticsearch",
+                'name': "ElasticSearch",
+                'img': elasticimg,
+                'experience': 30,
+                'porcental': 97
+            },
+            {
+                'id': "mysql",
+                'name': "MySQL",
+                'img': postgreRimg,
+                'experience': 80,
+                'porcental': 232
+            },
+            {
+                'id': "postgresql",
+                'name': "PostgreSQL",
+                'img': mysqlimg,
+                'experience': 80,
+                'porcental': 232
+            }
+        ]
     },
     {
-        'id': "go",
-        'name': "Go",
-        'img': goimg,
-        'experience': 30,
-        'porcental': 87
-    }
-]
-
-export const frontend = [
-    {
-        'id': "html",
-        'name': "HTML",
-        'img': htmlimg,
-        'experience': 90,
-        'porcental': 261
+        name: "Tools",
+        tools: [
+            {
+                'id': "expo",
+                'name': "Expo",
+                'img': expoimg,
+                'experience': 95,
+                'porcental': 276
+            },
+            {
+                'id': "Insomnia",
+                'name': "Insomnia",
+                'img': insomniatimg,
+                'experience': 100,
+                'porcental': 290
+            },
+            {
+                'id': "docker",
+                'name': "Docker",
+                'img': dockerimg,
+                'experience': 95,
+                'porcental': 276
+            },
+            {
+                'id': "git",
+                'name': "Git",
+                'img': gitimg,
+                'experience': 90,
+                'porcental': 261
+            },
+            {
+                'id': "github",
+                'name': "GitHub",
+                'img': githubimg,
+                'experience': 90,
+                'porcental': 261
+            },
+            {
+                'id': "jira",
+                'name': "Jira",
+                'img': jiralimg,
+                'experience': 70,
+                'porcental': 203
+            },
+            {
+                'id': "postman",
+                'name': "Postman",
+                'img': poatmanimg,
+                'experience': 80,
+                'porcental': 232
+            },
+            {
+                'id': "kubernetes",
+                'name': "Kubernetes",
+                'img': kubeimg,
+                'experience': 50,
+                'porcental': 145
+            }
+        ]
     },
     {
-        'id': "bootstrap",
-        'name': "Bootstrap ",
-        'img': bootimg,
-        'experience': 70,
-        'porcental': 203
+        name: "Cloud Computing Services",
+        tools: [
+            {
+                'id': "aws",
+                'name': "AWS",
+                'img': awsimg,
+                'experience': 50,
+                'porcental': 145
+            },
+            {
+                'id': "heroku",
+                'name': "Heroku",
+                'img': herokuimg,
+                'experience': 70,
+                'porcental': 203
+            },
+            {
+                'id': "digital-ocean",
+                'name': "Digital ocean",
+                'img': doimg,
+                'experience': 70,
+                'porcental': 203
+            },
+            {
+                'id': "google-cloud",
+                'name': "Google cloud",
+                'img': gclimg,
+                'experience': 50,
+                'porcental': 145
+            },
+            {
+                'id': "shell-script",
+                'name': "Shell script",
+                'img': ssimg,
+                'experience': 60,
+                'porcental': 174
+            },
+            {
+                'id': "jenkins",
+                'name': "Jenkins",
+                'img': jenkinsimg,
+                'experience': 20,
+                'porcental': 58
+            }
+        ]
     },
     {
-        'id': "react-native",
-        'name': "React native",
-        'img': reactNimg,
-        'experience': 40,
-        'porcental': 116
-    }
-]
-
-export const backend = [
-    {
-        'id': "symfony",
-        'name': "Symfony",
-        'img': symfonyimg,
-        'experience': 90,
-        'porcental': 261
+        name: "Package managers",
+        tools: [
+            {
+                'id': "npm",
+                'name': "NPM",
+                'img': npmimg,
+                'experience': 100,
+                'porcental': 290
+            },
+            {
+                'id': "yarn",
+                'name': "YARN",
+                'img': yarnimg,
+                'experience': 100,
+                'porcental': 290
+            }
+        ]
     },
     {
-        'id': "laravel",
-        'name': "Laravel",
-        'img': laravelimg,
-        'experience': 80,
-        'porcental': 232
+        name: "Operating systems",
+        tools: [
+            {
+                'id': "linux",
+                'name': "Linux",
+                'img': linuximg,
+                'experience': 80,
+                'porcental': 232
+            },
+            {
+                'id': "windows",
+                'name': "Windows",
+                'img': windowsimg,
+                'experience': 100,
+                'porcental': 290
+            }
+        ]
     },
     {
-        'id': "node",
-        'name': "NodeJS",
-        'img': nodeimg,
-        'experience': 80,
-        'porcental': 232
-    }
-]
-
-export const libraries = [
-    {
-        'id': "react",
-        'name': "React",
-        'img': reactimg,
-        'experience': 90,
-        'porcental': 261
+        name: "Operating systems",
+        tools: [
+            {
+                'id': "linux",
+                'name': "Linux",
+                'img': linuximg,
+                'experience': 80,
+                'porcental': 232
+            },
+            {
+                'id': "windows",
+                'name': "Windows",
+                'img': windowsimg,
+                'experience': 100,
+                'porcental': 290
+            }
+        ]
     },
     {
-        'id': "socket",
-        'name': "Socket.io",
-        'img': socketimg,
-        'experience': 90,
-        'porcental': 261
-    },
-    {
-        'id': "react-router",
-        'name': "React router",
-        'img': reactRimg,
-        'experience': 80,
-        'porcental': 232
-    },
-    {
-        'id': "redux",
-        'name': "Redux",
-        'img': reduximg,
-        'experience': 90,
-        'porcental': 261
-    }
-]
-
-export const databases = [
-    {
-        'id': "mongodb",
-        'name': "MongoDB",
-        'img': mongoimg,
-        'experience': 95,
-        'porcental': 276
-    },
-    {
-        'id': "redis",
-        'name': "Redis",
-        'img': redistimg,
-        'experience': 60,
-        'porcental': 174
-    },
-    {
-        'id': "elasticsearch",
-        'name': "ElasticSearch",
-        'img': elasticimg,
-        'experience': 30,
-        'porcental': 97
-    },
-    {
-        'id': "mysql",
-        'name': "MySQL",
-        'img': postgreRimg,
-        'experience': 80,
-        'porcental': 232
-    },
-    {
-        'id': "postgresql",
-        'name': "PostgreSQL",
-        'img': mysqlimg,
-        'experience': 80,
-        'porcental': 232
-    }
-
-]
-
-export const tools = [
-    {
-        'id': "expo",
-        'name': "Expo",
-        'img': expoimg,
-        'experience': 95,
-        'porcental': 276
-    },
-    {
-        'id': "Insomnia",
-        'name': "Insomnia",
-        'img': insomniatimg,
-        'experience': 100,
-        'porcental': 290
-    },
-    {
-        'id': "docker",
-        'name': "Docker",
-        'img': dockerimg,
-        'experience': 95,
-        'porcental': 276
-    },
-    {
-        'id': "jira",
-        'name': "Jira",
-        'img': jiralimg,
-        'experience': 70,
-        'porcental': 203
-    },
-    {
-        'id': "postman",
-        'name': "Postman",
-        'img': poatmanimg,
-        'experience': 80,
-        'porcental': 232
-    },
-    {
-        'id': "kubernetes",
-        'name': "Kubernetes",
-        'img': kubeimg,
-        'experience': 50,
-        'porcental': 145
-    }
-]
-
-export const cloud = [
-    {
-        'id': "aws",
-        'name': "AWS",
-        'img': awsimg,
-        'experience': 50,
-        'porcental': 145
-    },
-    {
-        'id': "heroku",
-        'name': "Heroku",
-        'img': herokuimg,
-        'experience': 70,
-        'porcental': 203
-    },
-    {
-        'id': "digital-ocean",
-        'name': "Digital ocean",
-        'img': doimg,
-        'experience': 70,
-        'porcental': 203
-    },
-    {
-        'id': "google-cloud",
-        'name': "Google cloud",
-        'img': gclimg,
-        'experience': 50,
-        'porcental': 145
-    },
-    {
-        'id': "shell-script",
-        'name': "Shell script",
-        'img': ssimg,
-        'experience': 60,
-        'porcental': 174
-    },
-    {
-        'id': "jenkins",
-        'name': "Jenkins",
-        'img': jenkinsimg,
-        'experience': 20,
-        'porcental': 58
-    }
-]
-
-export const adminPackage = [
-    {
-        'id': "npm",
-        'name': "NPM",
-        'img': npmimg,
-        'experience': 100,
-        'porcental': 290
-    },
-    {
-        'id': "yarn",
-        'name': "YARN",
-        'img': yarnimg,
-        'experience': 100,
-        'porcental': 290
-    }
-]
-
-export const systemO = [
-    {
-        'id': "linux",
-        'name': "Linux",
-        'img': linuximg,
-        'experience': 80,
-        'porcental': 232
-    },
-    {
-        'id': "windows",
-        'name': "Windows",
-        'img': windowsimg,
-        'experience': 100,
-        'porcental': 290
-    }
-]
-
-export const estandars = [
-    {
-        'id': "mui",
-        'name': "MUI",
-        'img': muiimg,
-        'experience': 90,
-        'porcental': 261
-    },
-    {
-        'id': "jwt",
-        'name': "JWT",
-        'img': jwtimg,
-        'experience': 80,
-        'porcental': 232
+        name: "Library & Standard",
+        tools: [
+            {
+                'id': "mui",
+                'name': "MUI",
+                'img': muiimg,
+                'experience': 90,
+                'porcental': 261
+            },
+            {
+                'id': "jwt",
+                'name': "JWT",
+                'img': jwtimg,
+                'experience': 80,
+                'porcental': 232
+            }
+        ]
     }
 ]
