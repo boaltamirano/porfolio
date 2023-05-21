@@ -1,5 +1,6 @@
 import "../styles/project.css"
-import dockerimg from "../../assets/docker.jpg"
+import githubimg from "../../assets/github.png"
+import giff2img from "../../assets/giff.png"
 
 export const ProjectPage = () => {
     return (
@@ -26,46 +27,27 @@ export const ProjectPage = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae id fuga incidunt omnis sint assumenda in vel accusantium laudantium veritatis, hic dolorem dolor eius velit maiores perferendis, maxime iure pariatur.</p>
             <span>React, Nodejs, JWT, MongoDb</span>
 
-            <div className="cardPro">
-                <div className="contentPro">
-                    <div className="backPro" >
-                        <div 
-                            className="back-contentPro"
-                            style={{background: `url(${dockerimg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}
-                        >
-                            <strong>Hover Me</strong>
-                        </div>
-                    </div>
-                    <div className="frontPro">
-                        <div className="frontcontentPro">
-                            <small className="badgePro">Pasta</small>
-                            <div className="descriptionPro">
-                                <div className="titlePro">
-                                    <p className="titlePro">
-                                        <strong>Spaguetti Bolognese</strong>
-                                    </p>
-                                </div>
-                                <p className="card-footerPro">
-                                    30 Mins &nbsp; | &nbsp; 1 Serving
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="cardPro">
+            {/* <div className="cardPro">
                 <div className="contentPro">
                     <div className="backPro" >
                         <div
                             className="back-contentPro"
-                            style={{ background: `url(${dockerimg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
+                            style={{
+                                backgroundImage: `url(${dockerimg})`,
+                                backgroundSize: 'cover'
+                            }}
                         >
                             <strong>Hover Me</strong>
                         </div>
                     </div>
                     <div className="frontPro">
-                        <div className="frontcontentPro">
+                        <div
+                            className="frontcontentPro"
+                            style={{
+                                backgroundImage: `url(${giff2img})`,
+                                backgroundSize: 'cover',
+                            }}
+                        >
                             <small className="badgePro">Pasta</small>
                             <div className="descriptionPro">
                                 <div className="tags">
@@ -74,6 +56,27 @@ export const ProjectPage = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div> */}
+
+
+
+            <div className="cardPro">
+                <img className="imgProCard" src={giff2img} />
+                <div className="descriptionProject">
+                    <div className="titleCard">
+                        <img className="avatar" src={githubimg} />
+                        <p className="titleProject">
+                            Giff
+                        </p>
+                        <img className="avatar" src={githubimg} />
+                    </div>
+                    <p className="infoProject">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.
+                    </p>
+                    <div className="techProject">
+                        <a href="#">#React</a>
                     </div>
                 </div>
             </div>
