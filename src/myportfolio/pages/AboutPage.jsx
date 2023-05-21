@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import '../styles/about.css';
-import '../styles/contact.scss';
 
 export const AboutPage = () => {
 

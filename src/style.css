@@ -1,4 +1,9 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
+    background: rgba(70, 70, 70, 0.74);
 }
