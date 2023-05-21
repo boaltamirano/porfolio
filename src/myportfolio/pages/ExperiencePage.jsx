@@ -1,7 +1,7 @@
 import "../styles/experience.css";
 import adsimg from '../../assets/ads.png';
 import iasimg from '../../assets/ias.jpeg';
-import tremgroupimg from '../../assets/tremgroup.jpeg';
+import tgimg from '../../assets/tg.jpeg';
 
 export const ExperiencePage = () => {
     return (
@@ -71,7 +71,7 @@ export const ExperiencePage = () => {
                         <h3 className="titleExp">FullStack Developer</h3>
                         <a className="nameExp" href="https://www.tremgroup.com">TREMGROUP</a>
                     </div>
-                    <img className="imageExp" src={tremgroupimg} />
+                    <img className="imageExp" src={tgimg} />
                 </div>
                 <div className="descriptionExp">
                     <p>Develop web applications using React.js, symfony 5, node.js, mongodb, socket.io and related technologies</p>
