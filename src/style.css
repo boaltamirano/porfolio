@@ -5,5 +5,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgba(70, 70, 70, 0.74);
+    background-color: #534d4d;
+    background: url(./assets/back.svg) no-repeat ;
+    background-size: cover;
+    background-position: center; 
 }

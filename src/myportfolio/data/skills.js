@@ -292,15 +292,15 @@ export const allTools = [
                 'id': "kubernetes",
                 'name': "Kubernetes",
                 'img': kubeimg,
-                'experience': 50,
-                'porcental': 145
+                'experience': 40,
+                'porcental': 116
             },
             {
                 'id': "jwt",
                 'name': "JWT",
                 'img': jwtimg,
-                'experience': 80,
-                'porcental': 232
+                'experience': 60,
+                'porcental': 174
             }
         ]
     },
@@ -332,15 +332,15 @@ export const allTools = [
                 'id': "google-cloud",
                 'name': "Google cloud",
                 'img': gclimg,
-                'experience': 50,
-                'porcental': 145
+                'experience': 40,
+                'porcental': 116
             },
             {
                 'id': "shell-script",
                 'name': "Shell script",
                 'img': ssimg,
-                'experience': 60,
-                'porcental': 174
+                'experience': 40,
+                'porcental': 116
             },
             {
                 'id': "jenkins",
