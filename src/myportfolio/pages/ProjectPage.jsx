@@ -1,28 +1,32 @@
+import "../styles/project.css"
+import githubimg from "../../assets/github.png"
+import giff2img from "../../assets/giff.png"
+import { projects } from "../data/projects"
 
 export const ProjectPage = () => {
     return (
-        <div>
-            <h1>Project</h1>
-            <h2>sistema ecommerce</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae id fuga incidunt omnis sint assumenda in vel accusantium laudantium veritatis, hic dolorem dolor eius velit maiores perferendis, maxime iure pariatur.</p>
-            <span>React Native, Nodejs, MongoDb</span>
-
-            <h2>Gif app</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae id fuga incidunt omnis sint assumenda in vel accusantium laudantium veritatis, hic dolorem dolor eius velit maiores perferendis, maxime iure pariatur.</p>
-            <span>React</span>
-
-            <h2>Heroes app</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae id fuga incidunt omnis sint assumenda in vel accusantium laudantium veritatis, hic dolorem dolor eius velit maiores perferendis, maxime iure pariatur.</p>
-            <span>React</span>
-
-            <h2>Journal</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae id fuga incidunt omnis sint assumenda in vel accusantium laudantium veritatis, hic dolorem dolor eius velit maiores perferendis, maxime iure pariatur.</p>
-            <span>React, Firebase</span>
-
-            
-            <h2>Calendario</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae id fuga incidunt omnis sint assumenda in vel accusantium laudantium veritatis, hic dolorem dolor eius velit maiores perferendis, maxime iure pariatur.</p>
-            <span>React, Nodejs, JWT, MongoDb</span>
+        <div className="projectBody">
+            {/* <h1>Project</h1> */}
+            {projects.map(({id, name, description, technology, img, demo, code }) => (
+                <div className="cardPro" key={id}>
+                    <img className="imgProCard" src={img} />
+                    <div className="descriptionProject">
+                        <div className="titleCard">
+                            <img className="avatar" src={giff2img} />
+                            <p className="titleProject">
+                                {name}
+                            </p>
+                            <img className="avatar" src={githubimg} />
+                        </div>
+                        <p className="infoProject">
+                            {description}
+                        </p>
+                        <span className="techProject">
+                            {technology}
+                        </span>
+                    </div>
+                </div>
+            ))}
 
         </div>
     )
