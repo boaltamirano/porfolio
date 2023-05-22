@@ -56,7 +56,7 @@ export const AboutPage = () => {
             }
 
             <div className="contact">
-                <h2>FIND ME ON</h2>
+                <h2 className='contactTittle'>FIND ME ON</h2>
                 <p> Feel free to connect with me</p>
                 <div className='media'>
                     <i className='fa fa-facebook-f'></i>

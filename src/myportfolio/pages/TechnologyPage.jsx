@@ -6,7 +6,7 @@ export const TechnologyPage = () => {
 
     return (
         <div className="technology">
-            <h1 className="blinking-shadow">MY SKILLS</h1>
+            <h1 className="titleTech">MY SKILLS</h1>
             {
                 allTools.map(({name, tools}, index) => (
                     <div className="card" key={index}>

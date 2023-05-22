@@ -27,22 +27,18 @@ import postgreRimg from '../../assets/postgre.png';
 import mysqlimg from '../../assets/mysql.png';
 
 import expoimg from '../../assets/expo.png';
-import insomniatimg from '../../assets/insomnia.png';
 import dockerimg from '../../assets/docker.jpg';
 import elasticimg from '../../assets/elastic.jpg';
 import jiralimg from '../../assets/jira.png';
-import poatmanimg from '../../assets/postman.png';
 import kubeimg from '../../assets/kubernetes.png';
 import gitimg from '../../assets/git.png';
 import githubimg from '../../assets/github.png';
 
 
 import awsimg from '../../assets/aws.png';
-import herokuimg from '../../assets/heroku.png';
 import doimg from '../../assets/do.png';
 import gclimg from '../../assets/gcl.png';
 import ssimg from '../../assets/ss.png';
-import jenkinsimg from '../../assets/jenkins.png';
 
 
 import npmimg from '../../assets/npm.png';
@@ -247,13 +243,6 @@ export const allTools = [
                 'porcental': 276
             },
             {
-                'id': "Insomnia",
-                'name': "Insomnia",
-                'img': insomniatimg,
-                'experience': 100,
-                'porcental': 290
-            },
-            {
                 'id': "docker",
                 'name': "Docker",
                 'img': dockerimg,
@@ -264,8 +253,8 @@ export const allTools = [
                 'id': "git",
                 'name': "Git",
                 'img': gitimg,
-                'experience': 90,
-                'porcental': 261
+                'experience': 70,
+                'porcental': 203
             },
             {
                 'id': "github",
@@ -280,13 +269,6 @@ export const allTools = [
                 'img': jiralimg,
                 'experience': 70,
                 'porcental': 203
-            },
-            {
-                'id': "postman",
-                'name': "Postman",
-                'img': poatmanimg,
-                'experience': 80,
-                'porcental': 232
             },
             {
                 'id': "kubernetes",
@@ -315,13 +297,6 @@ export const allTools = [
                 'porcental': 145
             },
             {
-                'id': "heroku",
-                'name': "Heroku",
-                'img': herokuimg,
-                'experience': 70,
-                'porcental': 203
-            },
-            {
                 'id': "digital-ocean",
                 'name': "Digital ocean",
                 'img': doimg,
@@ -341,13 +316,6 @@ export const allTools = [
                 'img': ssimg,
                 'experience': 40,
                 'porcental': 116
-            },
-            {
-                'id': "jenkins",
-                'name': "Jenkins",
-                'img': jenkinsimg,
-                'experience': 20,
-                'porcental': 58
             }
         ]
     },

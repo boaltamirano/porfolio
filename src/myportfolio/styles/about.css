@@ -1,10 +1,13 @@
 .intro {
-    margin-top: 90px;
+    margin-top: 110px;
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 100px;
+    background: rgba(136, 133, 133, 0.137);
+    box-shadow: 0 5px 15px rgba(117, 113, 115, 0.274);
+    border-radius: 20px;
 }
 
 .imgPortfolio {
@@ -34,7 +37,14 @@
     max-width: 450px;
     width: 450px;
     height: 400px;
-    box-shadow: 0 5px 30px rgba(153, 153, 153, 0.1);
+    box-shadow: 0 5px 30px rgba(97, 5, 97, 0.1);
+
+
+    background: #7802066b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #06116157, #7802066b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #06116157, #7802066b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
     backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.582);
@@ -49,7 +59,7 @@
 
 .content h2 {
     font-size: 3em;
-    color: #e7c9c9;
+    color: #dbd9d9;
 }
 
 .content p {
@@ -83,7 +93,6 @@
 .sumary h2 {
     font-size: 36px;
     padding-bottom: 30px;
-    /* color: purple; */
 }
 
 .sumary p span {
@@ -98,6 +107,15 @@
     padding: 20px;
     margin-top: 6rem;
     color: #ffffff;
+}
+.contactTittle {
+    font-size: 28px;
+    color: #cfcfcf;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #a5026f;
 }
 
 .media {
@@ -117,18 +135,18 @@
     transition: .5%;
 }
 
-.ico1:hover {
+.fa-facebook-f:hover {
     color: #0051ff;
 }
 
-.ico2:hover {
+.fa-twitter:hover {
     color: #80c8ff;
 }
 
-.ico3:hover {
+.fa-instagram:hover {
     color: #db0cc3;
 }
 
-.ico4:hover {
+.fa-youtube-play:hover {
     color: #ff0808;
 }
