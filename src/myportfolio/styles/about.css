@@ -20,7 +20,6 @@
 }
 
 @keyframes animate {
-
     0%,
     100% {
         transform: translateY(10px);
@@ -35,10 +34,10 @@
     max-width: 450px;
     width: 450px;
     height: 400px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 30px rgba(153, 153, 153, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.582);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     padding: 40px;
@@ -50,23 +49,23 @@
 
 .content h2 {
     font-size: 3em;
-    color: #7e323f;
+    color: #e7c9c9;
 }
 
 .content p {
     font-size: 1.2em;
     text-align: justify;
-    color: #8a2435;
+    color: #ada6a6;
 }
 
 .content button {
     padding: 15px 30px;
     background: #fff;
-    color: #8a2435;
+    color: #000000;
     border-radius: 30px;
     font-size: 1.2em;
     font-weight: 500;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.425);
+    box-shadow: 0 5px 10px rgba(94, 94, 94, 0.425);
     border: none;
 }
 
@@ -78,11 +77,18 @@
     padding: 50px 90px;
     font-size: 18px;
     text-align: justify;
+    color: #dbdbdb;
 }
 
 .sumary h2 {
     font-size: 36px;
     padding-bottom: 30px;
+    /* color: purple; */
+}
+
+.sumary p span {
+    color: #cc05b5;
+    font-weight: 600;
 }
 
 .contact {
@@ -91,7 +97,7 @@
     align-items: center;
     padding: 20px;
     margin-top: 6rem;
-    color: #db0cc3;
+    color: #ffffff;
 }
 
 .media {

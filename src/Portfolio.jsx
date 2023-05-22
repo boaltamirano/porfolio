@@ -6,6 +6,13 @@ import "./style.css"
 export const Portfolio = () => {
     return (
         <BrowserRouter>
+            <div className="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <NavBar />
             <AppRouter />
         </BrowserRouter>

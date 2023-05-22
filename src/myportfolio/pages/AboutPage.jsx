@@ -40,16 +40,17 @@ export const AboutPage = () => {
                 <div ref={sumaryRef} className='row sumary'>
                     <h2>Get to Know me</h2>
                     <p>
-                        Hi, I am passionate about web development where I have knowledge in programming languages like JavaScript, HTML, CSS and other technologies like React, Node.js, Express and MongoDB.
+                        Hi, I am passionate about web development where 
+                        I have knowledge in programming languages like <span>JavaScript, HTML, CSS</span> and other technologies like <span>React, Node.js, Express</span> and <span>MongoDB</span>.
                     </p>
                     <p>
                         I'm passionate about technology and I'm always looking for new ways to improve my skills and stay updated on the latest development trends and tools. 💡💻
                     </p>
                     <p>
-                        I focus on agile development and continuous integration to ensure that the code I produce is of high quality and ready for production release. 🚀🔍
+                        I focus on <span>agile development</span> and <span>continuous integration</span> to ensure that the code I produce is of high quality and ready for production release. 🚀🔍
                     </p>
                     <p>
-                        If you are looking for a Fullstack developer with solid skills in the latest technologies, feel free to contact me!
+                        If you are looking for a <span>Fullstack developer</span> with solid skills in the latest technologies, feel <span>free to contact me!</span>
                     </p>
                 </div>
             }
