@@ -41,14 +41,6 @@ import gclimg from '../../assets/gcl.png';
 import ssimg from '../../assets/ss.png';
 
 
-import npmimg from '../../assets/npm.png';
-import yarnimg from '../../assets/yarn.png';
-
-
-import windowsimg from '../../assets/windows.jpg';
-import linuximg from '../../assets/linux.png';
-
-
 import muiimg from '../../assets/mui.png';
 import jwtimg from '../../assets/jwt.png';
 

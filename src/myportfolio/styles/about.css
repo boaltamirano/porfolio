@@ -1,5 +1,8 @@
 .about {
     padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .intro {
@@ -7,8 +10,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 100px;
-    background: rgba(136, 133, 133, 0.548);
-    box-shadow: 0 5px 15px rgba(117, 113, 115, 0.274);
+    /* background: rgba(88, 45, 45, 0.274); */
+    /* box-shadow: 0 5px 15px rgba(117, 113, 115, 0.274); */
     border-radius: 20px;
 }
 
@@ -39,18 +42,11 @@
     max-width: 450px;
     width: 450px;
     height: 400px;
-    box-shadow: 0 5px 30px rgba(97, 5, 97, 0.1);
-
-
-    background: #7802066b;
-    background: -webkit-linear-gradient(to top, #06116157, #7802066b);
-    background: linear-gradient(to top, #06116157, #7802066b);
+    box-shadow: 0 5px 10px rgba(31, 26, 28, 0.575);
+    background: #75737315;
     
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.582);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -60,13 +56,13 @@
 
 .content h2 {
     font-size: 3em;
-    color: #dbd9d9;
+    color: #ffffff;
 }
 
 .content p {
     font-size: 1.2em;
     text-align: justify;
-    color: #ada6a6;
+    color: #ffffff;
 }
 
 .content button {
@@ -95,8 +91,8 @@
     padding-bottom: 30px;
 }
 
-.sumary p span {
-    color: #cc05b5;
+span {
+    color: #b43761;
     font-weight: 600;
 }
 
@@ -106,19 +102,18 @@
     align-items: center;
     padding: 20px;
     margin-top: 6rem;
-    margin-bottom: 0;
+    margin-bottom: -8rem;
     color: #ffffff;
-    /* background-color: #0051ff; */
 }
 
 .contactTittle {
     font-size: 28px;
-    color: #cfcfcf;
+    color: #ffffff;
 }
 
 .contact p {
     font-size: 16px;
-    color: #a5026f;
+    color: #b6b6b6;
 }
 
 .media {

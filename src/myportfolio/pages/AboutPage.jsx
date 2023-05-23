@@ -24,8 +24,8 @@ export const AboutPage = () => {
                 </div>
 
                 <div className="content">
-                    <h2>Hi, I'm Omar</h2>
-                    <p> Hi! I'm a Fullstack developer with experience in creating scalable and high quality web applications</p>
+                    <h2>Hi, I'm <span>Omar</span></h2>
+                    <p> Hi! I'm a <span>Fullstack developer</span> with experience in creating scalable and high quality <span>web applications</span></p>
                     <button
                         onClick={onViewSumary}
                     >
