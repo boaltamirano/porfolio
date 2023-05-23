@@ -318,43 +318,5 @@ export const allTools = [
                 'porcental': 116
             }
         ]
-    },
-    {
-        name: "Package managers",
-        tools: [
-            {
-                'id': "npm",
-                'name': "NPM",
-                'img': npmimg,
-                'experience': 100,
-                'porcental': 290
-            },
-            {
-                'id': "yarn",
-                'name': "YARN",
-                'img': yarnimg,
-                'experience': 100,
-                'porcental': 290
-            }
-        ]
-    },
-    {
-        name: "Operating systems",
-        tools: [
-            {
-                'id': "linux",
-                'name': "Linux",
-                'img': linuximg,
-                'experience': 80,
-                'porcental': 232
-            },
-            {
-                'id': "windows",
-                'name': "Windows",
-                'img': windowsimg,
-                'experience': 100,
-                'porcental': 290
-            }
-        ]
     }
 ]

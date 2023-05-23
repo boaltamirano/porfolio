@@ -1,11 +1,13 @@
+.about {
+    padding: 90px 0;
+}
+
 .intro {
-    margin-top: 110px;
-    position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 100px;
-    background: rgba(136, 133, 133, 0.137);
+    background: rgba(136, 133, 133, 0.548);
     box-shadow: 0 5px 15px rgba(117, 113, 115, 0.274);
     border-radius: 20px;
 }
@@ -19,10 +21,10 @@
 .imgPortfolio img {
     max-width: 200px;
     height: 250px;
-    animation: animate 4s linear infinite;
+    animation: animateimg 4s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animateimg {
     0%,
     100% {
         transform: translateY(10px);
@@ -40,11 +42,10 @@
     box-shadow: 0 5px 30px rgba(97, 5, 97, 0.1);
 
 
-    background: #7802066b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #06116157, #7802066b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #06116157, #7802066b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #7802066b;
+    background: -webkit-linear-gradient(to top, #06116157, #7802066b);
+    background: linear-gradient(to top, #06116157, #7802066b);
     
-
     backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.582);
@@ -79,7 +80,6 @@
     border: none;
 }
 
-
 .sumary {
     margin-top: 90px;
     position: relative;
@@ -106,8 +106,11 @@
     align-items: center;
     padding: 20px;
     margin-top: 6rem;
+    margin-bottom: 0;
     color: #ffffff;
+    /* background-color: #0051ff; */
 }
+
 .contactTittle {
     font-size: 28px;
     color: #cfcfcf;
