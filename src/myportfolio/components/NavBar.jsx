@@ -30,7 +30,7 @@ export const NavBar = () => {
 
         <nav className={`navbar navbar-expand-sm navbar-light fixed-top ${isScrolled ? 'scrolled' : ''}`}>
             <button
-                className="navbar-toggler"
+                className="navbar-toggler botonNav"
                 type="button"
                 onClick={toggleNav}
             >
@@ -39,31 +39,31 @@ export const NavBar = () => {
             <div
                 className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`}
             >
-                <ul className="navbar-nav ">
+                <ul className="navbar-nav ul-p">
                     <NavLink
                         className="nav-link navlink-p"
-                        activeClassName="active"
+                        // activeClassName="active"
                         to="/about"
                     >
                         About
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
-                        activeClassName="active"
+                        // activeClassName="active"
                         to="/technology"
                     >
                         Skills
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
-                        activeClassName="active"
+                        // activeClassName="active"
                         to="/experience"
                     >
                         Experience
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
-                        activeClassName="active"
+                        // activeClassName="active"
                         to="/project"
                     >
                         Project

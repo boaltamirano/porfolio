@@ -18,6 +18,7 @@
 
 .ul-p {
     display: flex;
+    margin-left: 20px;
     /* margin: 40px; */
 }
 
@@ -27,7 +28,7 @@
     color: #ffffff;
     border-radius: 10px;
     font-size: 20px;
-    margin: 10px;
+    margin: 8px 25px;
     padding: 3px;
 }
 
@@ -45,6 +46,24 @@
 }
 
 .scrolled {
-    background-color: #524f4f8c;
+    background-color: #535353a6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+    .botonNav {
+        background-color: #cfc6c6b6;
+        border: 1px solid rgb(124, 38, 113);
+        margin-left: 10px;
+        color: #bea1a1;
+    }
+    .navbar-nav  {
+        background-color: #ccc5c5;
+        width: 300px;
+        border-radius: 6px;
+        color: #921e1e;
+        margin-left: 20px;
+        margin-top: 9px;
+        box-shadow: 5px 5px 10px rgba(53, 48, 48, 0.651);
+    }
 }
