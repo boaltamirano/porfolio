@@ -28,7 +28,7 @@ export const ItemExperience = ({ experience, porcental, handleViewOut }) => {
                     style={{
                         stroke: `url(#gradient)`,
                         strokeWidth: "7px",
-                        fill: "transparent",
+                        fill: "#a8a8a841",
                     }}
                     fill="none"
                 />

@@ -70,6 +70,15 @@ export const NavBar = () => {
                     </NavLink>
                 </ul>
             </div>
+
+            {/* <NavLink
+                className="nav-link navlink-p"
+                // to="/about"
+                // onClick={toggleNav}
+            >
+                Es
+            </NavLink> */}
+
         </nav>
     )
 }

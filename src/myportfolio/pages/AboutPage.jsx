@@ -38,7 +38,7 @@ export const AboutPage = () => {
 
             </div>
 
-            <div ref={sumaryRef} className='row sumary'>
+            <div ref={sumaryRef} className=' sumary'>
                 <h2>Get to Know me</h2>
                 <p>
                     Hi, I am passionate about web development where

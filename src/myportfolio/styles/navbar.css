@@ -58,12 +58,16 @@
     }
 
     .navbar-nav {
-        background-color: #ccc5c5;
+        background-color: #474557;
         width: 300px;
         border-radius: 6px;
         color: #921e1e;
         margin-left: 20px;
         margin-top: 9px;
         box-shadow: 5px 5px 10px rgba(53, 48, 48, 0.651);
+    }
+
+    .navlink-p {
+        margin: 8px 10px;
     }
 }

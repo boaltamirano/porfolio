@@ -38,6 +38,43 @@
     }
 }
 
+
+@media (max-width: 992px) {
+    .intro {
+        padding: 40px 5px;
+    }
+}
+
+@media (max-width: 777px) {
+    .intro {
+        padding: 50px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .imgPortfolio {
+        margin-bottom: 50px;
+    }
+
+    .about {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .sumary {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+    }
+}
+
+
 .content {
     max-width: 450px;
     width: 450px;
@@ -79,7 +116,7 @@
 .sumary {
     margin-top: 90px;
     position: relative;
-    display: flex;
+    /* display: flex; */
     padding: 50px 90px;
     font-size: 18px;
     text-align: justify;
