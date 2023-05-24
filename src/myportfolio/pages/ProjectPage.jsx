@@ -1,7 +1,7 @@
 import "../styles/project.css"
 import githubimg from "../../assets/github.png"
-import giff2img from "../../assets/giff.png"
 import { projects } from "../data/projects"
+import { GrView } from 'react-icons/gr';
 
 export const ProjectPage = () => {
     return (
@@ -12,7 +12,8 @@ export const ProjectPage = () => {
                     <img className="imgProCard" src={img} />
                     <div className="descriptionProject">
                         <div className="titleCard">
-                            <img className="avatar" src={giff2img} />
+                            <a className="demo"><GrView className="demoIcon"/></a>
+                            {/* <img className="avatar" src={giff2img} /> */}
                             <p className="titleProject">
                                 {name}
                             </p>

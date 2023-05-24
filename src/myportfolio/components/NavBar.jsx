@@ -43,24 +43,28 @@ export const NavBar = () => {
                     <NavLink
                         className="nav-link navlink-p"
                         to="/about"
+                        onClick={toggleNav}
                     >
                         About
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
                         to="/technology"
+                        onClick={toggleNav}
                     >
                         Skills
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
                         to="/experience"
+                        onClick={toggleNav}
                     >
                         Experience
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
                         to="/project"
+                        onClick={toggleNav}
                     >
                         Project
                     </NavLink>

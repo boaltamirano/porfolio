@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px 40px;
     flex-direction: column;
     padding: 90px 0;
 }
@@ -22,8 +21,39 @@
     background: #ad5389;
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
     background: linear-gradient(to right, #3c1053, #ad5389);
-    
 }
+
+.experience .cardExp:nth-child(1) {
+    margin-right: 500px;
+}
+
+.experience .cardExp:nth-child(2) {
+    margin-top: -50px;
+    margin-left: 500px;
+}
+
+.experience .cardExp:nth-child(3) {
+    margin-top: -50px;
+    margin-right: 500px;
+}
+
+@media (max-width: 991px) {
+    .experience .cardExp:nth-child(1) {
+        margin-right: 0;
+    }
+    
+    .experience .cardExp:nth-child(2) {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    
+    .experience .cardExp:nth-child(3) {
+        margin-top: 40px;
+        margin-right: 0;
+    }
+}
+
+
 
 .headerExp {
     display: flex;

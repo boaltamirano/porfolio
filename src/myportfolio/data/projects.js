@@ -7,7 +7,7 @@ export const projects = [
     {
         id: "ecommerce",
         name: "Ecommerce",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
+        description: "Mobile application that allows users to browse product catalogs, add items to the shopping cart, make secure payments and track orders.",
         technology: "#React Native #nodejs #Express #Mongoose ",
         img: giffimg,
         demo: "#",

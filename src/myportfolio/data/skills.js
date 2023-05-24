@@ -5,39 +5,39 @@ import pythonimg from '../../assets/python.png';
 import javaimg from '../../assets/java.png';
 import goimg from '../../assets/go.jpg';
 
-import htmlimg from '../../assets/html.webp';
+import htmlimg from '../../assets/html.png';
 import bootimg from '../../assets/bootstrap.png';
-import reactNimg from '../../assets/rn.png';
+import reactNimg from '../../assets/rn.webp';
 
 
 import symfonyimg from '../../assets/symfony.png';
 import laravelimg from '../../assets/laravel.jpg';
-import nodeimg from '../../assets/node.png';
+import nodeimg from '../../assets/node.jpg';
 
 
 import reactimg from '../../assets/react.png';
-import socketimg from '../../assets/socket.webp';
+import socketimg from '../../assets/socket.png';
 import reactRimg from '../../assets/router.png';
-import reduximg from '../../assets/redux.png';
+import reduximg from '../../assets/redux.jpg';
 
 
-import mongoimg from '../../assets/mongo.jpg';
-import redistimg from '../../assets/redis.png';
+import mongoimg from '../../assets/mongo.png';
+import redistimg from '../../assets/redis.jpg';
 import postgreRimg from '../../assets/postgre.png';
 import mysqlimg from '../../assets/mysql.png';
 
 import expoimg from '../../assets/expo.png';
 import dockerimg from '../../assets/docker.jpg';
 import elasticimg from '../../assets/elastic.jpg';
-import jiralimg from '../../assets/jira.png';
-import kubeimg from '../../assets/kubernetes.png';
+import jiralimg from '../../assets/jira.jpeg';
+import kubeimg from '../../assets/kube.png';
 import gitimg from '../../assets/git.png';
 import githubimg from '../../assets/github.png';
 
 
 import awsimg from '../../assets/aws.png';
 import doimg from '../../assets/do.png';
-import gclimg from '../../assets/gcl.png';
+import gclimg from '../../assets/gcl.jpg';
 import ssimg from '../../assets/ss.png';
 
 
@@ -211,14 +211,14 @@ export const allTools = [
             {
                 'id': "mysql",
                 'name': "MySQL",
-                'img': postgreRimg,
+                'img': mysqlimg,
                 'experience': 80,
                 'porcental': 232
             },
             {
                 'id': "postgresql",
                 'name': "PostgreSQL",
-                'img': mysqlimg,
+                'img': postgreRimg,
                 'experience': 80,
                 'porcental': 232
             }
