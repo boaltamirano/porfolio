@@ -42,28 +42,24 @@ export const NavBar = () => {
                 <ul className="navbar-nav ul-p">
                     <NavLink
                         className="nav-link navlink-p"
-                        // activeClassName="active"
                         to="/about"
                     >
                         About
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
-                        // activeClassName="active"
                         to="/technology"
                     >
                         Skills
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
-                        // activeClassName="active"
                         to="/experience"
                     >
                         Experience
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"
-                        // activeClassName="active"
                         to="/project"
                     >
                         Project

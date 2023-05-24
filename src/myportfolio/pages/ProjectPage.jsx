@@ -16,7 +16,7 @@ export const ProjectPage = () => {
                             <p className="titleProject">
                                 {name}
                             </p>
-                            <img className="avatar" src={githubimg} />
+                            <a href={code}><img className="avatar" src={githubimg} /></a>
                         </div>
                         <p className="infoProject">
                             {description}

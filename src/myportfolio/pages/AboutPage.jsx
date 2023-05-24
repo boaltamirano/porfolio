@@ -1,4 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+
+
 import '../styles/about.css';
 
 export const AboutPage = () => {
@@ -56,8 +59,8 @@ export const AboutPage = () => {
                 <h2 className='contactTittle'>FIND ME ON</h2>
                 <p> Feel free to connect with me</p>
                 <div className='media'>
-                    <i className='fa fa-facebook-f'></i>
-                    <i className='fa fa-twitter'></i>
+                    <i className='fa github'><FaGithub className='githubIcon'/></i>
+                    <i className='fa linkedin'><FaLinkedinIn className='linkedinIcon'/></i>
                     <i className='fa fa-instagram'></i>
                     <i className='fa fa-youtube-play'></i>
                 </div>

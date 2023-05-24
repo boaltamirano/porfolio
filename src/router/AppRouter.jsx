@@ -10,7 +10,6 @@ export const AppRouter = () => {
                     <Route path="experience" element={<ExperiencePage />} />
                     <Route path="project" element={<ProjectPage />} />
                     <Route path="technology" element={<TechnologyPage />} />
-
                     <Route path="/" element={<Navigate to="/about" />} />
 
                 </Routes>

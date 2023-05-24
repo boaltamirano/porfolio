@@ -1,4 +1,7 @@
 import giffimg from "../../assets/giff.png";
+import heroesimg from "../../assets/heroes.png";
+import journalimg from "../../assets/journal.png";
+import calendarimg from "../../assets/calendar.png";
 
 export const projects = [
     {
@@ -7,8 +10,8 @@ export const projects = [
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
         technology: "#React Native #nodejs #Express #Mongoose ",
         img: giffimg,
-        demo: "http://localhost:5173/project",
-        code: "http://localhost:5173/project"
+        demo: "#",
+        code: "#"
     },
     {
         id: "giffs",
@@ -17,33 +20,33 @@ export const projects = [
         technology: "#React",
         img: giffimg,
         demo: "http://localhost:5173/project",
-        code: "http://localhost:5173/project"
+        code: "https://github.com/boaltamirano/app-gif"
     },
     {
         id: "heroes",
         name: "Heroes App",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
         technology: "#React #react-router",
-        img: giffimg,
+        img: heroesimg,
         demo: "http://localhost:5173/project",
-        code: "http://localhost:5173/project"
+        code: "https://github.com/boaltamirano/heroes-app"
     },
     {
         id: "journal",
         name: "Journal App",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
         technology: "#React #mui #react-router #react-redux #sweetalert2",
-        img: giffimg,
+        img: journalimg,
         demo: "http://localhost:5173/project",
-        code: "http://localhost:5173/project"
+        code: "https://github.com/boaltamirano/journal-app"
     },
     {
         id: "calendar",
         name: "Calendar App",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
         technology: "#React #bootstrap #react-router #react-redux #nodejs #mongoose #express #jwt",
-        img: giffimg,
+        img: calendarimg,
         demo: "http://localhost:5173/project",
-        code: "http://localhost:5173/project"
+        code: "https://github.com/boaltamirano/calendar"
     }
 ]
