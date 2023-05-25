@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "../styles/navbar.css"
+import { BsFillPersonFill, BsPersonWorkspace } from 'react-icons/bs';
+import { MdMiscellaneousServices, MdWork } from 'react-icons/md';
+
 export const NavBar = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -45,6 +48,7 @@ export const NavBar = () => {
                         to="/about"
                         onClick={toggleNav}
                     >
+                        <BsFillPersonFill className='iconsNav'/>
                         About me
                     </NavLink>
                     <NavLink
@@ -52,6 +56,7 @@ export const NavBar = () => {
                         to="/technology"
                         onClick={toggleNav}
                     >
+                        <MdMiscellaneousServices className='iconsNav'/>
                         Skills
                     </NavLink>
                     <NavLink
@@ -59,6 +64,7 @@ export const NavBar = () => {
                         to="/experience"
                         onClick={toggleNav}
                     >
+                        <BsPersonWorkspace className='iconsNav'/>
                         Experience
                     </NavLink>
                     <NavLink
@@ -66,6 +72,7 @@ export const NavBar = () => {
                         to="/project"
                         onClick={toggleNav}
                     >
+                        <MdWork className='iconsNav'/>
                         Project
                     </NavLink>
                 </ul>
