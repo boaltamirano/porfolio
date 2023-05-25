@@ -59,10 +59,10 @@ export const AboutPage = () => {
                 <h2 className='contactTittle'>FIND ME ON</h2>
                 <p> Feel free to connect with me</p>
                 <div className='media'>
-                    <i className='fa github'><FaGithub className='githubIcon'/></i>
-                    <i className='fa linkedin'><FaLinkedinIn className='linkedinIcon'/></i>
-                    <i className='fa fa-instagram'></i>
-                    <i className='fa fa-youtube-play'></i>
+                    <a className='fa github' href='https://github.com/boaltamirano'><FaGithub className='githubIcon'/></a>
+                    <a className='fa linkedin' href='https://www.linkedin.com/in/boaltamirano/'><FaLinkedinIn className='linkedinIcon'/></a>
+                    {/* <i className='fa fa-instagram'></i>
+                    <i className='fa fa-youtube-play'></i> */}
                 </div>
             </div>
 

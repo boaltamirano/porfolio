@@ -45,7 +45,7 @@ export const NavBar = () => {
                         to="/about"
                         onClick={toggleNav}
                     >
-                        About
+                        About me
                     </NavLink>
                     <NavLink
                         className="nav-link navlink-p"

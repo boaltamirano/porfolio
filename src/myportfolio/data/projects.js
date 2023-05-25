@@ -1,3 +1,4 @@
+import ecomimg from "../../assets/ecom.webp";
 import giffimg from "../../assets/giff.png";
 import heroesimg from "../../assets/heroes.png";
 import journalimg from "../../assets/journal.png";
@@ -9,7 +10,7 @@ export const projects = [
         name: "Ecommerce",
         description: "Mobile application that allows users to browse product catalogs, add items to the shopping cart, make secure payments and track orders.",
         technology: "#React Native #nodejs #Express #Mongoose ",
-        img: giffimg,
+        img: ecomimg,
         demo: "#",
         code: "#"
     },
