@@ -1,12 +1,17 @@
+.about {
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .intro {
-    margin-top: 110px;
-    position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 100px;
-    background: rgba(136, 133, 133, 0.137);
-    box-shadow: 0 5px 15px rgba(117, 113, 115, 0.274);
+    /* background: rgba(88, 45, 45, 0.274); */
+    /* box-shadow: 0 5px 15px rgba(117, 113, 115, 0.274); */
     border-radius: 20px;
 }
 
@@ -17,12 +22,13 @@
 }
 
 .imgPortfolio img {
-    max-width: 200px;
-    height: 250px;
-    animation: animate 4s linear infinite;
+    max-width: 300px;
+    height: 350px;
+    border-radius: 90px;
+    animation: animateimg 4s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animateimg {
     0%,
     100% {
         transform: translateY(10px);
@@ -33,23 +39,52 @@
     }
 }
 
+
+@media (max-width: 992px) {
+    .intro {
+        padding: 40px 5px;
+    }
+}
+
+@media (max-width: 777px) {
+    .intro {
+        padding: 50px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .imgPortfolio {
+        margin-bottom: 50px;
+    }
+
+    .about {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .sumary {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+    }
+}
+
+
 .content {
     max-width: 450px;
     width: 450px;
     height: 400px;
-    box-shadow: 0 5px 30px rgba(97, 5, 97, 0.1);
-
-
-    background: #7802066b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #06116157, #7802066b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #06116157, #7802066b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 5px 10px rgba(31, 26, 28, 0.575);
+    background: #75737315;
     
-
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.582);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -59,13 +94,13 @@
 
 .content h2 {
     font-size: 3em;
-    color: #dbd9d9;
+    color: #ffffff;
 }
 
 .content p {
     font-size: 1.2em;
     text-align: justify;
-    color: #ada6a6;
+    color: #ffffff;
 }
 
 .content button {
@@ -79,11 +114,10 @@
     border: none;
 }
 
-
 .sumary {
     margin-top: 90px;
     position: relative;
-    display: flex;
+    /* display: flex; */
     padding: 50px 90px;
     font-size: 18px;
     text-align: justify;
@@ -95,8 +129,8 @@
     padding-bottom: 30px;
 }
 
-.sumary p span {
-    color: #cc05b5;
+span {
+    color: #b43761;
     font-weight: 600;
 }
 
@@ -106,16 +140,18 @@
     align-items: center;
     padding: 20px;
     margin-top: 6rem;
+    margin-bottom: -8rem;
     color: #ffffff;
 }
+
 .contactTittle {
     font-size: 28px;
-    color: #cfcfcf;
+    color: #ffffff;
 }
 
 .contact p {
     font-size: 16px;
-    color: #a5026f;
+    color: #b6b6b6;
 }
 
 .media {
@@ -130,18 +166,50 @@
     text-align: center;
     margin: 0 15px;
     border-radius: 50%;
-    background-color: #444;
-    box-shadow: 0 0 8px 1px;
+    box-shadow: 0 1px 10px rgb(255, 255, 255);
     transition: .5%;
 }
 
-.fa-facebook-f:hover {
-    color: #0051ff;
+.githubIcon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
 
-.fa-twitter:hover {
-    color: #80c8ff;
+.githubIcon:hover {
+    background-color: #ffffff;
+    box-shadow: 0 1px 10px rgb(122, 48, 48);
 }
+
+.github:hover {
+    color: #000000;
+}
+
+.linkedin {
+    background-color: #004880;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.linkedinIcon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgba(0, 73, 128, 0);
+}
+
+.linkedin:hover {
+    color: #0051bb;
+    box-shadow: 0 1px 10px #0051bb;
+}
+
+.linkedinIcon:hover {
+    color: #ffffff;
+}
+
 
 .fa-instagram:hover {
     color: #db0cc3;

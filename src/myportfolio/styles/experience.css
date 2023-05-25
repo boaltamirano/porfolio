@@ -1,26 +1,59 @@
 .experience {
-    margin-top: 90px;
     /* background: rgba(223, 223, 223, 0.281); */
     /* box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5); */
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 30px 40px;
-    /* flex-direction: column; */
-    /* align-items: center; */
+    flex-direction: column;
+    padding: 90px 0;
 }
 
 .cardExp {
-    max-width: 320px;
+    max-width: 350px;
     position: relative;
     display: block;
     overflow: hidden;
-    border: 1px solid rgba(243, 244, 246, );
+    border: 1px solid rgb(173, 173, 173);
     border-radius: 0.5rem;
     padding: 1rem;
-    background-color: rgba(102, 112, 55, 0.438);
+    background: #ad5389;
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    background: linear-gradient(to right, #3c1053, #ad5389);
 }
+
+.experience .cardExp:nth-child(1) {
+    margin-right: 500px;
+}
+
+.experience .cardExp:nth-child(2) {
+    margin-top: -50px;
+    margin-left: 500px;
+}
+
+.experience .cardExp:nth-child(3) {
+    margin-top: -50px;
+    margin-right: 500px;
+}
+
+@media (max-width: 991px) {
+    .experience .cardExp:nth-child(1) {
+        margin-right: 0;
+    }
+    
+    .experience .cardExp:nth-child(2) {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    
+    .experience .cardExp:nth-child(3) {
+        margin-top: 40px;
+        margin-right: 0;
+    }
+}
+
+
 
 .headerExp {
     display: flex;
@@ -33,15 +66,14 @@
     font-size: 1.125rem;
     line-height: 1.25rem;
     font-weight: 700;
-    color: rgba(17, 24, 39, 1);
+    color: #ffffff;
     margin-bottom: 0;
 }
 
 .nameExp {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: 0.85rem;
     font-weight: 500;
-    color: rgba(75, 85, 99, 1);
+    color: #aaa9aa;
     text-decoration: none;
 }
 
@@ -52,44 +84,43 @@
 .imageExp {
     display: block;
     flex-shrink: 0;
-    height: 3rem;
-    /* width: 3rem; */
+    height: 2.3rem;
     border-radius: 0.5rem;
     object-fit: cover;
     background-color: royalblue;
 }
 
 .descriptionExp {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
-    color: rgba(107, 114, 128, 1);
+    color: #dbd9d9;
     text-align: justify;
     margin-right: 15px;
 }
 
-.post-infoExp {
+.datesExp {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: -0.5rem;
 }
 
 .crExp {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .dtExp {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 600;
-    color: rgba(75, 85, 99, 1);
+    font-size: 0.70rem;
+    line-height: 1rem;
+    color: #ffffff9f;
 }
 
 .ddExp {
-    font-size: 0.75rem;
-    line-height: 1rem;
-    color: rgba(107, 114, 128, 1);
+    font-size: 0.90rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #ffffffbd;
 }

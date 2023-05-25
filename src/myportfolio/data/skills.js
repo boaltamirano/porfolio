@@ -2,51 +2,43 @@ import jsimg from '../../assets/JS.png';
 import tsimg from '../../assets/TS.png';
 import phpimg from '../../assets/php.png';
 import pythonimg from '../../assets/python.png';
-import javaimg from '../../assets/java.png';
+import javaimg from '../../assets/java.jpg';
 import goimg from '../../assets/go.jpg';
 
-import htmlimg from '../../assets/html.webp';
+import htmlimg from '../../assets/html.png';
 import bootimg from '../../assets/bootstrap.png';
-import reactNimg from '../../assets/rn.png';
+import reactNimg from '../../assets/rn.webp';
 
 
 import symfonyimg from '../../assets/symfony.png';
 import laravelimg from '../../assets/laravel.jpg';
-import nodeimg from '../../assets/node.png';
+import nodeimg from '../../assets/node.jpg';
 
 
 import reactimg from '../../assets/react.png';
-import socketimg from '../../assets/socket.webp';
+import socketimg from '../../assets/socket.png';
 import reactRimg from '../../assets/router.png';
-import reduximg from '../../assets/redux.png';
+import reduximg from '../../assets/redux.jpg';
 
 
-import mongoimg from '../../assets/mongo.jpg';
-import redistimg from '../../assets/redis.png';
+import mongoimg from '../../assets/mongo.png';
+import redistimg from '../../assets/redis.jpg';
 import postgreRimg from '../../assets/postgre.png';
 import mysqlimg from '../../assets/mysql.png';
 
 import expoimg from '../../assets/expo.png';
 import dockerimg from '../../assets/docker.jpg';
 import elasticimg from '../../assets/elastic.jpg';
-import jiralimg from '../../assets/jira.png';
-import kubeimg from '../../assets/kubernetes.png';
+import jiralimg from '../../assets/jira.jpeg';
+import kubeimg from '../../assets/kube.png';
 import gitimg from '../../assets/git.png';
 import githubimg from '../../assets/github.png';
 
 
 import awsimg from '../../assets/aws.png';
 import doimg from '../../assets/do.png';
-import gclimg from '../../assets/gcl.png';
+import gclimg from '../../assets/gcl.jpg';
 import ssimg from '../../assets/ss.png';
-
-
-import npmimg from '../../assets/npm.png';
-import yarnimg from '../../assets/yarn.png';
-
-
-import windowsimg from '../../assets/windows.jpg';
-import linuximg from '../../assets/linux.png';
 
 
 import muiimg from '../../assets/mui.png';
@@ -219,14 +211,14 @@ export const allTools = [
             {
                 'id': "mysql",
                 'name': "MySQL",
-                'img': postgreRimg,
+                'img': mysqlimg,
                 'experience': 80,
                 'porcental': 232
             },
             {
                 'id': "postgresql",
                 'name': "PostgreSQL",
-                'img': mysqlimg,
+                'img': postgreRimg,
                 'experience': 80,
                 'porcental': 232
             }
@@ -316,44 +308,6 @@ export const allTools = [
                 'img': ssimg,
                 'experience': 40,
                 'porcental': 116
-            }
-        ]
-    },
-    {
-        name: "Package managers",
-        tools: [
-            {
-                'id': "npm",
-                'name': "NPM",
-                'img': npmimg,
-                'experience': 100,
-                'porcental': 290
-            },
-            {
-                'id': "yarn",
-                'name': "YARN",
-                'img': yarnimg,
-                'experience': 100,
-                'porcental': 290
-            }
-        ]
-    },
-    {
-        name: "Operating systems",
-        tools: [
-            {
-                'id': "linux",
-                'name': "Linux",
-                'img': linuximg,
-                'experience': 80,
-                'porcental': 232
-            },
-            {
-                'id': "windows",
-                'name': "Windows",
-                'img': windowsimg,
-                'experience': 100,
-                'porcental': 290
             }
         ]
     }

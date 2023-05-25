@@ -1,18 +1,19 @@
 .technology {
-    margin-top: 90px;
-    /* background: rgba(223, 223, 223, 0.281); */
-    /* box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5); */
+    position: absolute;
+    top: 190px;
+    bottom: 0;
+    left: 0;
+    right: 0;
     border-radius: 20px;
     padding: 15px 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px 40px;
-    /* flex-direction: column; */
-    /* align-items: center; */
+    gap: 20px 40px;
 }
 
 .titleTech {
+    padding: 95px 0;
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
@@ -23,14 +24,17 @@
 
 .card {
     display: flex;
-    background-color: #ffffffcb;
+    background-color: #ffffff49;
     box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
 }
 
 .header {
-    background-color: #320d3d;
+    background: #273b7c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8b538d, #273b7c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8b538d, #273b7c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     color: #fff;
     padding: 15px;
     text-align: start;
@@ -48,7 +52,8 @@
     gap: 10px 40px;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+
+    justify-content: space-evenly;
 }
 
 .tech-body {
@@ -56,7 +61,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(102, 112, 55, 0.438);
+    background-color: rgba(55, 112, 104, 0.788);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     width: 120px;
@@ -69,6 +74,7 @@
     margin-top: 6px;
     border-radius: 50%;
     cursor: pointer;
+    /* background-color: #d1d1d1; */
 }
 
 .progress-bar {
@@ -100,7 +106,7 @@
 .number {
     font-weight: bold;
     font-size: 25px;
-    background: linear-gradient(-15deg, rgb(31, 33, 124) 0 50%, rgb(202, 76, 214) 90% 95%, rgb(221, 36, 83) 100%);
+    background: linear-gradient(-15deg, rgb(252, 252, 252) 0 50%, rgb(202, 76, 214) 90% 95%, rgb(221, 36, 83) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
