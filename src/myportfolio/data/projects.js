@@ -16,7 +16,7 @@ export const projects = [
     {
         id: "giffs",
         name: "Giff App",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
+        description: "The application connects to the Giphy Developers API, which allows requests to be made and results to be obtained in real time. Users can search for GIFs using keywords.",
         technology: "#React",
         img: giffimg,
         demo: "http://localhost:5173/project",
@@ -25,7 +25,7 @@ export const projects = [
     {
         id: "heroes",
         name: "Heroes App",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
+        description: "An application where users can navigate between different windows, such as the home page, the list of superheroes, and the details of each superhero, the system also has a simple login system.",
         technology: "#React #react-router",
         img: heroesimg,
         demo: "http://localhost:5173/project",
@@ -34,7 +34,7 @@ export const projects = [
     {
         id: "journal",
         name: "Journal App",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
+        description: "The journal application is a platform designed to help users keep an organized and accessible personal record, the user can perform CRUD of notes. In addition, it has a login functionality using Firebase, which allows users to register, log in and keep their notes synchronized across different devices.",
         technology: "#React #mui #react-router #react-redux #sweetalert2",
         img: journalimg,
         demo: "http://localhost:5173/project",
@@ -43,7 +43,7 @@ export const projects = [
     {
         id: "calendar",
         name: "Calendar App",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis nemo fugit autem possimus, magnam consequatur sint esse.",
+        description: "It is an application that gives users the ability to perform CRUD operations on their calendar events. The application has a login functionality. For data backup the application has a Node.js API that connects to a MongoDB database.",
         technology: "#React #bootstrap #react-router #react-redux #nodejs #mongoose #express #jwt",
         img: calendarimg,
         demo: "http://localhost:5173/project",

@@ -22,8 +22,9 @@
 }
 
 .imgPortfolio img {
-    max-width: 200px;
-    height: 250px;
+    max-width: 300px;
+    height: 350px;
+    border-radius: 90px;
     animation: animateimg 4s linear infinite;
 }
 

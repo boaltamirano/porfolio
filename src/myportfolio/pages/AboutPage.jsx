@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-
+import logoimg from "../../assets/logo.png";
 
 import '../styles/about.css';
 
@@ -23,7 +23,7 @@ export const AboutPage = () => {
         <div className='about'>
             <div className="intro">
                 <div className="imgPortfolio">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPUMiaDR4gWujVpLgB1yKuNXFPnDNaaZUUDA&usqp=CAU" />
+                    <img src={logoimg} />
                 </div>
 
                 <div className="content">

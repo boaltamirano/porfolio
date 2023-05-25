@@ -2,7 +2,7 @@ import jsimg from '../../assets/JS.png';
 import tsimg from '../../assets/TS.png';
 import phpimg from '../../assets/php.png';
 import pythonimg from '../../assets/python.png';
-import javaimg from '../../assets/java.png';
+import javaimg from '../../assets/java.jpg';
 import goimg from '../../assets/go.jpg';
 
 import htmlimg from '../../assets/html.png';
