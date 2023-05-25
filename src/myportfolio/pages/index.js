@@ -1,5 +1,4 @@
 export * from './AboutPage'
-export * from './ContactPage'
 export * from './ExperiencePage'
 export * from './ProjectPage'
 export * from './TechnologyPage'
