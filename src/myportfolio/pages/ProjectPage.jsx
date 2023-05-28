@@ -6,14 +6,12 @@ import { GrView } from 'react-icons/gr';
 export const ProjectPage = () => {
     return (
         <div className="projectBody">
-            {/* <h1>Project</h1> */}
             {projects.map(({id, name, description, technology, img, demo, code }) => (
                 <div className="cardPro" key={id}>
                     <img className="imgProCard" src={img} />
                     <div className="descriptionProject">
                         <div className="titleCard">
-                            <a className="demo"><GrView className="demoIcon"/></a>
-                            {/* <img className="avatar" src={giff2img} /> */}
+                            {/* <a className="demo"><GrView className="demoIcon"/></a> */}
                             <p className="titleProject">
                                 {name}
                             </p>

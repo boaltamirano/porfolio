@@ -35,7 +35,7 @@ export const projects = [
     {
         id: "journal",
         name: "Journal App",
-        description: "The journal application is a platform designed to help users keep an organized and accessible personal record, the user can perform CRUD of notes. In addition, it has a login functionality using Firebase, which allows users to register, log in and keep their notes synchronized across different devices.",
+        description: "The journaling application is a platform designed to help users keep an organized and accessible personal record, the user can CRUD notes.",
         technology: "#React #mui #react-router #react-redux #sweetalert2",
         img: journalimg,
         demo: "http://localhost:5173/project",
@@ -44,7 +44,7 @@ export const projects = [
     {
         id: "calendar",
         name: "Calendar App",
-        description: "It is an application that gives users the ability to perform CRUD operations on their calendar events. The application has a login functionality. For data backup the application has a Node.js API that connects to a MongoDB database.",
+        description: "An application that performs a CRUD on the events of a calendar. The application has a login functionality. For data backup the application has a Node.js API that connects to a MongoDB database.",
         technology: "#React #bootstrap #react-router #react-redux #nodejs #mongoose #express #jwt",
         img: calendarimg,
         demo: "http://localhost:5173/project",
