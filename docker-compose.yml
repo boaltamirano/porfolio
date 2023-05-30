@@ -1,21 +1,10 @@
 version: '3.9'
 
 services:
-  portfolio-app:
-    restart: unless-stopped
-    build:
-      context: .
-      target: dev
-    ports:
-      - '3000:5173'
-    volumes:
-      - ./:/app
-      - /app/node_modules
-
   portfolio-prod:
     restart: unless-stopped
     build:
       context: .
       target: prod
     ports:
-      - '8080:80'
+      - '443:443'
