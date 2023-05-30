@@ -1,30 +1,29 @@
-FROM node:latest as build
+FROM node:alpine3.16 as builder
 
 WORKDIR /app
 
-# Copia el archivo package.json y package-lock.json (o yarn.lock)
-COPY yarn*.lock ./
+COPY package.json ./
+COPY yarn.lock ./
 
-# Instala las dependencias
-RUN yarn install
+RUN yarn
 
-# Copia todos los archivos de la aplicación React
-COPY . .
+COPY ./ ./
 
-# Construye la aplicación React optimizada para producción
-RUN yarn run build
+RUN yarn build
 
-# Configura una nueva imagen para el servidor Nginx
-FROM nginx:latest
+FROM nginx:1.23.1-alpine as prod
 
-# Copia los archivos de la compilación de la aplicación React al directorio de Nginx
-COPY --from=build /app/build /usr/share/nginx/html
+WORKDIR /usr/share/nginx/html
 
-# Copia el archivo de configuración personalizado de Nginx
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY default.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder --chown=nginx:nginx /app/dist .
 
-# Exponer el puerto 80 para el servidor Nginx
-EXPOSE 80
+FROM node:alpine3.16 as dev
 
-# Inicia el servidor Nginx
-CMD ["nginx", "-g", "daemon off;"]
+WORKDIR /app
+
+COPY package.json ./
+COPY yarn.lock ./
+RUN yarn
+
+CMD ["yarn", "dev"]

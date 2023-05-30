@@ -4,7 +4,7 @@ import { NavBar } from "./myportfolio"
 import { BackGround } from "./myportfolio"
 import "./style.css"
 
-export const Portfolio = () => {
+function AppPortfolio() {
     return (
         <BrowserRouter>
             <BackGround />
@@ -13,3 +13,5 @@ export const Portfolio = () => {
         </BrowserRouter>
     )
 }
+
+export default AppPortfolio;
